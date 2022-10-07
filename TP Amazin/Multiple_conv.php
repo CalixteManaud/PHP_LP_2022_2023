@@ -92,7 +92,7 @@ class VOD extends ProductVideo implements Downloadable {
     }
 }
 
-class Ebook extends Livre implements Downloadable {
+class Ebook extends Book implements Downloadable {
     public function download()
     {
         // TODO: Implement download() method.
