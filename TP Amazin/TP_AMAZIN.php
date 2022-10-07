@@ -143,7 +143,8 @@ abstract class ProductVideo extends Product{
         $this->_Creator = $Creator;
     }
 
-    public function ViewTrailer(){}
+    public function ViewTrailer(): void
+    {}
 }
 
 class Book extends Product{
@@ -185,7 +186,8 @@ class Book extends Product{
         $this->_ISBN = $ISBN;
     }
 
-    public function ViewExtract(){}
+    public function ViewExtract(): void
+    {}
 
     public function order()
     {
